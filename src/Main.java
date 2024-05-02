@@ -25,6 +25,7 @@ public class Main {
 
         Sede sede = new Sede(1, "2024-05-02", "12:00");
 
+        System.out.println("****************************************************************************************************");
         System.out.println("Nombre del 3er atleta de la 2da prueba: " + instalacion.obtenerNombreAtletaPrueba(prueba2.getCodigo(), 2));
 
         System.out.println("Código de la 2da prueba: " + prueba2.getCodigo());
@@ -45,5 +46,6 @@ public class Main {
             System.out.println("Atleta " + (i + 1) +  " Peso extra: " + (pesoExtra.get(i) ? "Sí" : "No"));
         }
 
+        System.out.println("****************************************************************************************************");
     }
 }

@@ -1,6 +1,8 @@
 public class Prueba {
     private int codigo;
     private String titulo;
+    private Instalacion instalacion;
+    private Sede sede;
 
     public Prueba(int codigo, String titulo) {
         this.codigo = codigo;
@@ -21,5 +23,21 @@ public class Prueba {
 
     public void setTitulo(String titulo) {
         this.titulo = titulo;
+    }
+
+    public Sede getSede() {
+        return sede;
+    }
+
+    public void setSede(Sede sede) {
+        this.sede = sede;
+    }
+
+    public Instalacion getInstalacion() {
+        return instalacion;
+    }
+
+    public void setInstalacion(Instalacion instalacion) {
+        this.instalacion = instalacion;
     }
 }

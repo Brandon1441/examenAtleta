@@ -9,6 +9,7 @@ public class Instalacion {
     private String nombre;
     private String tipo;
     private Map<Prueba, List<Atleta>> participantes;
+    private Sede sede;
 
     public Instalacion(String categoria, String localizacion, String nombre, String tipo) {
         this.categoria = categoria;
@@ -65,5 +66,21 @@ public class Instalacion {
 
     public void setTipo(String tipo) {
         this.tipo = tipo;
+    }
+
+    public Sede getSede() {
+        return sede;
+    }
+
+    public void setSede(Sede sede) {
+        this.sede = sede;
+    }
+
+    public Map<Prueba, List<Atleta>> getParticipantes() {
+        return participantes;
+    }
+
+    public void setParticipantes(Map<Prueba, List<Atleta>> participantes) {
+        this.participantes = participantes;
     }
 }
